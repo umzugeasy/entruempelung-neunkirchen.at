@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="de-DE">
+  <head>
+    {% include "head.njk" %}
+  </head>
+
+  <body>
+    {% include "header.njk" %}
+
+    <main>{{ content | safe }}</main>
+
+    {% include "footer.njk" %}
+
+    <script src="{{ '/js/' + manifest['main.js'] | url }}"></script>
+  </body>
+</html>

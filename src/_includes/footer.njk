@@ -1,0 +1,20 @@
+<footer class="bg-forest">
+  <div class="container text-center">
+
+    <div class="xl:flex flex-wrap justify-between pt-4">
+      <div class="pb-4 xl:order-2">
+        <a href="/" class="no-underline lg:text-2xl">{{site.name}}</a>
+        <p>{{ site.mail }}</p>
+      </div>
+      <div class="pb-4 xl:order-1">{% include "button/telefon.njk" %}</div>
+      <div class="pb-4 xl:order-3">{% include "button/anfrage.njk" %}</div>
+    </div>
+  </div>
+
+  <div class="fixed inset-x-0 bottom-0 z-50">
+    {% include "footer/fixed-buttons.njk" %}
+    {% include "cookies-banner.njk" %}
+  </div>
+
+  {% include "footer/bottom-block.njk" %}
+</footer>

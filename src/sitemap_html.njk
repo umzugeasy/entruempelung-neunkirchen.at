@@ -1,0 +1,30 @@
+---
+eleventyExcludeFromCollections: true
+layout: default
+title: "Sitemap | Entruempelung-Wrneustadt.at"
+permalink: /sitemap/
+---
+
+
+<section class="text-left md:text-left py-10">
+	<div class="container max-w-[1420px]">
+		<h1 class="text-3xl font-bold mb-4 text-forest">Sitemap</h1>
+
+    <ul class="list-disc">
+      {% for item in collections.all %}
+        <li class="pb-2 text-pink">
+          <a  href="{{ site.url }}{{ item.url }}">{{ item.data.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+
+	</div>
+</section>
+
+
+
+<section class="bg-white py-12 text-left">
+  <div class="container max-w-[1420px]">
+    <div>{% include "4badges.njk" %}</div>
+  </div>
+</section>

@@ -1,0 +1,34 @@
+[
+  {
+    "title": "WIEN",
+    "img": "entruempelung-wien"
+  },
+  {
+    "title": "NIEDERÖSTERREICH",
+    "img": "entruempelung-niederoesterreich"
+  },
+  {
+    "title": "BURGENLAND",
+    "img": "entruempelung-burgenland"
+  },
+  {
+    "title": "STEIERMARK",
+    "img": "entruempelung-steiermark"
+  },
+  {
+    "title": "KÄRNTEN",
+    "img": "entruempelung-kaernten"
+  },
+  {
+    "title": "OBERÖSTERREICH",
+    "img": "entruempelung-oberoesterreich"
+  },
+  {
+    "title": "TIROL",
+    "img": "entruempelung-tirol"
+  },
+  {
+    "title": "SALZBURG",
+    "img": "entruempelung-salzburg"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Kleinräumung",
+    "price": "ab 150 €"
+  },
+  {
+    "name": "Kellerentrümpelung",
+    "price": "ab 250 €"
+  },
+  {
+    "name": "Wohnungsräumung",
+    "price": "ab 390 €"
+  },
+  {
+    "name": "Haushaltsauflösung",
+    "price": "ab 490 €"
+  },
+  {
+    "name": "Messie-Wohnung",
+    "price": "nach Besichtigung"
+  },
+  {
+    "name": "Gewerberäumung",
+    "price": "nach Besichtigung"
+  }
+]
