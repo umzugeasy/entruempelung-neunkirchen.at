@@ -6,7 +6,7 @@
 @layer base {
 
 	html {
-		@apply bg-forest;
+		@apply bg-cream;
 		@apply text-white;
 		@apply font-redHatDisplay;
 	}
@@ -35,7 +35,7 @@
 
 	h1,h2,h3,h4,h5,h6 {
 		@apply font-bold;
-		@apply text-moss;
+		@apply text-coral;
 		@apply text-2xl;
 		@apply lg:text-3xl;
 		@apply 2xl:text-4xl;

@@ -7,15 +7,15 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'forest': {
-          DEFAULT: '#072D23',
-          'soft':'#072D230F',
-          'border': '#072D2338'
+        'cream': {
+          DEFAULT: '#ffead2',
+          'soft': '#ffead20f',
+          'border': '#ffead238'
         },
-        'mint': {
-          DEFAULT: '#A3F18E',
-          'soft': '#A3F18E0F',
-          'border':'#A3F18E47'
+        'coral': {
+          DEFAULT: '#f87854',
+          'soft': '#f878540f',
+          'border': '#f8785447'
         },
         'moss':{
           DEFAULT: '#527947'

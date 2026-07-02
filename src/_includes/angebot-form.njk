@@ -1,16 +1,16 @@
 <div class="bg-white p-8 rounded-2xl border border-forest-border">
   <div class="text-center">
-    <h3 class="text-blue">Wir freuen uns auf Ihre Anfrage!</h3>
-    <p class="text-blue text-2xl">WR. NEUSTADT & ÖSTERREICHWEIT</p>
+    <h3 class="text-cream">Wir freuen uns auf Ihre Anfrage!</h3>
+    <p class="text-cream text-2xl">WR. NEUSTADT & ÖSTERREICHWEIT</p>
   </div>
   <form id="angebotForm" method="POST" action="https://contact.visiopartners.at/?endpoint={{ site.domain }}" data-recaptcha="6LewykAtAAAAAMjBFWPPm_hlHbMSNj7OIzBE909A">
 
-    <input class="p-3 mb-4 w-full rounded-xl bg-white text-blue placeholder:text-gray-400 text-gray-600 border-2 border-solid border-mint-border focus:border-mint focus:outline-none focus:ring-0" type="text" name="name" placeholder="Name *" required="" aria-required="true">
+    <input class="p-3 mb-4 w-full rounded-xl bg-white text-cream placeholder:text-gray-400 text-gray-600 border-2 border-solid border-coral-border focus:border-coral focus:outline-none focus:ring-0" type="text" name="name" placeholder="Name *" required="" aria-required="true">
 
-    <input class="p-3 mb-4 w-full rounded-xl bg-white text-blue placeholder:text-gray-400 text-gray-600 border-2 border-mint-border focus:border-mint focus:outline-none focus:ring-0" type="text" name="tel" placeholder="Rückrufnummer *" required="" aria-required="true">
-    <input class="p-3 mb-4 w-full rounded-xl bg-white text-blue placeholder:text-gray-400 text-gray-600 border-2 border-mint-border focus:border-mint focus:outline-none focus:ring-0" type="text" name="adresse" placeholder="Adresse">
+    <input class="p-3 mb-4 w-full rounded-xl bg-white text-cream placeholder:text-gray-400 text-gray-600 border-2 border-coral-border focus:border-coral focus:outline-none focus:ring-0" type="text" name="tel" placeholder="Rückrufnummer *" required="" aria-required="true">
+    <input class="p-3 mb-4 w-full rounded-xl bg-white text-cream placeholder:text-gray-400 text-gray-600 border-2 border-coral-border focus:border-coral focus:outline-none focus:ring-0" type="text" name="adresse" placeholder="Adresse">
 
-    <select class="p-3 mb-4 w-full rounded-xl bg-white text-blue placeholder:text-gray-400 text-gray-600 border-2 border-mint-border focus:border-mint focus:outline-none focus:ring-0" aria-label="Service" name="service">
+    <select class="p-3 mb-4 w-full rounded-xl bg-white text-cream placeholder:text-gray-400 text-gray-600 border-2 border-coral-border focus:border-coral focus:outline-none focus:ring-0" aria-label="Service" name="service">
       <option value="">Service</option>
       <option>Wohnungsräumung</option>
       <option>Haushaltsauflösung</option>
@@ -22,14 +22,14 @@
       <option>Sonstige Anfrage</option>
     </select>
 
-    <textarea class="p-3 mb-4 w-full rounded-xl bg-white text-blue placeholder:text-gray-400 text-gray-600 border-2 border-mint-border focus:border-mint focus:outline-none focus:ring-0" aria-label="Nachricht"name="msg" placeholder="Nachricht"></textarea>
+    <textarea class="p-3 mb-4 w-full rounded-xl bg-white text-cream placeholder:text-gray-400 text-gray-600 border-2 border-coral-border focus:border-coral focus:outline-none focus:ring-0" aria-label="Nachricht"name="msg" placeholder="Nachricht"></textarea>
 
     <div class="my-4 text-base">
-      <label class="tos"><input type="checkbox" name="tos" value="1" required="" class="accent-mint h-4 w-4 mr-2 align-middle" aria-required="true"/>
+      <label class="tos"><input type="checkbox" name="tos" value="1" required="" class="accent-coral h-4 w-4 mr-2 align-middle" aria-required="true"/>
       Ich stimme der <a class="underline" href="/datenschutzerklaerung/">Datenschutzerklärung</a> zu.</label>
     </div>
 
-    <button type="submit" class="cursor-pointer block w-full sm:w-80 p-3 md:px-6 py-3 pr-8 font-bold rounded-full bg-mint border-2 border-mint text-white hover:bg-white hover:text-mint">
+    <button type="submit" class="cursor-pointer block w-full sm:w-80 p-3 md:px-6 py-3 pr-8 font-bold rounded-full bg-coral border-2 border-coral text-white hover:bg-white hover:text-coral">
       <span class="flex items-center gap-2">
         <span class="invisible w-6 h-6" role="status">{% include "svg/loading-spin.svg" %}</span>
         <span>Angebot anfordern</span>

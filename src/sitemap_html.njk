@@ -8,11 +8,11 @@ permalink: /sitemap/
 
 <section class="text-left md:text-left py-10">
 	<div class="container max-w-[1420px]">
-		<h1 class="text-3xl font-bold mb-4 text-forest">Sitemap</h1>
+		<h1 class="text-3xl font-bold mb-4 text-cream">Sitemap</h1>
 
     <ul class="list-disc">
       {% for item in collections.all %}
-        <li class="pb-2 text-pink">
+        <li class="pb-2 text-coral">
           <a  href="{{ site.url }}{{ item.url }}">{{ item.data.title }}</a>
         </li>
       {% endfor %}
