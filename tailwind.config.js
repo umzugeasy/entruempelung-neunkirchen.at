@@ -17,8 +17,8 @@ module.exports = {
           'soft': '#f878540f',
           'border': '#f8785447'
         },
-        'moss':{
-          DEFAULT: '#527947'
+        'charcoal':{
+          DEFAULT: '#2B2A28'
         },
         'green': {
           DEFAULT: '#16A34A'
